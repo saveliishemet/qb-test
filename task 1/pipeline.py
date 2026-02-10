@@ -5,6 +5,7 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 STEPS = [
     "filter_funding_rows.py",
+    "validate_data.py",
     "filter_om_funding.py",
     "calculate_om_funding_totals.py",
 ]
