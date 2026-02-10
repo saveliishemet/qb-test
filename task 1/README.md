@@ -1,5 +1,5 @@
-Если хочется проверить результат: 1) filter_funding_rows.py (фильтруем только строки с фандингом), 2) filter_om_funding.py (из полученных строк фильтруем только OM) 
-3) calculate_om_funding_totals.py считаем. Скрипты в ту же директорию что и массивы.
+Если хочется проверить результат - копируем скрипты и массивы в одну директорию и запускаем pipeline.py.
+filter_funding_rows.py фильтрует только строки с фандингом, filter_om_funding.py из полученных строк фильтрует только OM, calculate_om_funding_totals.py считает.
 
 Мой результат:
 OM funding totals by exchange
