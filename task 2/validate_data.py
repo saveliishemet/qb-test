@@ -16,7 +16,6 @@ REQUIRED_COLUMNS = [
 ]
  
  
-# Same timestamp parsing expectations as find_PnL.py
 def parse_ts(ts):
     parts = ts.strip().split()
     d = [int(x) for x in parts[0].split("/")]
@@ -113,7 +112,6 @@ def main():
     print(f"Issues found: {len(issues)}")
     print(f"Issues CSV: {issues_path}")
  
-    # Show a small preview in console
     for row in issues[:20]:
         print(f"line {row['line']}: {row['instrument']} - {row['issue']} ({row['value']})")
  
@@ -123,3 +121,4 @@ def main():
  
 if __name__ == "__main__":
     main()
+
